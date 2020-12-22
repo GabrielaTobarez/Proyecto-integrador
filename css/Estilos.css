@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
+
+*{margin: 0;padding:0}
+
+body{
+    font-family: "Raleway";
+}
+
+h1{
+    font-weight: 900;
+}
+
+.bg1{background: #16a085 }
+.bg2{background: #27ae60}
+.bg3{background: #2980b9}
+.bg4{background: #8e44ad}
+.bg5{background: #e74c3c}
+.bg6{background: #2c3e50}
+.bg7{background: #7f8c8d}
+.bg8{background: #34495e}
+.bg9{background: #f1c40f}
+.bg10{background: #f39c12}
+.bg0{background:none;}
+
+.barraHeader{
+    height: 30px;   
+}
+.slider{
+    background:linear-gradient(rgb(70, 19, 165), rgb(96, 125, 233 ), rgb(70, 19, 165));
+   /* height: 300px;*/
+}
+
+
+.fica{
+   text-decoration: none;
+  color:white;
+  text-decoration: none;
+    }
+
+ 
+    .formulario{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 0%;
+        padding-right: 4%;
+        }
+    #formContacto{
+        background: rgb(231, 229, 229);
+        padding: 2%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #formContacto div{
+    margin-bottom: 2%;
+    }
+    
+    #formContacto input, #formContacto select, #formContacto textarea{
+        width:97%;
+        padding: 2%;
+        border:none;
+        color:rgb(113, 108, 146);
+        border-radius: 5px;
+        
+    
+        }
+    
+        #formContacto select option{
+            color:rgb(24, 22, 22);
+        } 
+    
+      
+    #formContacto input[type="checkbox"]{
+        width: auto;
+    }
+    
+    #formContacto input[type="radio"]{
+        width: auto;
+    }
+    #formContacto input[type="submit"]{
+        width: 40%;
+        cursor: pointer;
+        background-color: rgb(14, 143, 148);
+        color:white;
+    }
+    /*pseudoclases*/
+    #formContacto input[type="submit"]:hover{
+    background: linear-gradient(rgb(40, 31, 170),rgb(85, 99, 224));
+    color:white;
+    }
+    
+    #formContacto input[type="submit"]:active{
+        background: linear-gradient(rgb(6, 184, 238), rgb(50, 125, 128));
+        color:black;
+        }
+    
+     
+        #formContacto *:invalid{
+            border:solid rgb(122, 120, 120);
+            }
+    
+            /*pseudo-elemento*/
+            #formContacto textarea::placeholder{
+             color: black;
+            }
